@@ -1,0 +1,15 @@
+.board {
+  display: grid;
+}
+
+.board--small {
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  gap: 2px;
+}
+
+.board-square {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(45, 118, 45);
+}
